@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Event Manager</h1>
+      <h1>Event Management</h1>
       <form onSubmit={handleSubmit}>
         <input name="title" value={form.title} onChange={handleChange} placeholder="Title" required />
         <input name="date" type="date" value={form.date} onChange={handleChange} required />
